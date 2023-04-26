@@ -1,0 +1,72 @@
+#root{
+    background-image: url('./image/bg_pattern.jpg');
+}
+.header{
+    background-color: rgb(43, 42, 42);
+}
+
+.containerlist {
+    display: flex;
+    justify-content: center;
+}
+.containerlissitem{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;margin: 30px 0 20px 0;
+    border-radius: 10px;
+    background-image: url('./image/headerbg.png');
+    background-size: contain;
+}
+.containerlissitem h1{
+    font-size: 50px;
+    margin-top: 110px;
+    font-family: 'Marck Script', cursive; 
+}
+.tiltlelist{
+    height: 280px;
+    width: 500px;
+    background-image: url('./image/Lovepik.png');
+    background-size: 500px 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topiclist{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.right{
+    height: 500px;
+    width: 15%;
+}
+.listtopic{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.topicinfo{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.listtopic label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.listtopic input{
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,76 @@
+.footer{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(247, 233, 195);
+    display: flex;
+    justify-content: center;
+}
+.footer h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.footer ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+}
+.containerfooter{
+    width: 1050px;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutus{
+    font-size: large;
+}
+.Legal{
+    font-size: large;
+}
+.social{
+    width: 100px;
+    text-align: center;
+    font-size: large;
+}
+.aboutus li {
+    margin: 0;
+    padding: 0%;
+}
+
+.footer p{ 
+    margin: 10px;
+    line-height: 20px;
+    color: rgb(4, 68, 47);
+    font-weight: 700;
+}
+
+.footer li{
+    text-align: left;
+    border-bottom:  1px solid rgb(85, 84, 84);
+    height: 40px;
+    margin: 0%;
+    padding: 0;
+}
+.iconfooter {
+    font-size: 40px;
+    color: rgb(41, 27, 10);
+}
+.social ul li{
+    display: flex;
+    justify-content: center;
+}
+.facebook{
+    font-size: 40px;
+    color: rgb(40, 82, 221);
+}
+.ins{
+    font-size: 40px;
+    color: rgb(44, 25, 25);
+}
+.tik{
+    font-size: 40px;
+    color: black
+}
+.youtube{
+    font-size: 40px;
+    color: rgb(226, 9, 9);
+}

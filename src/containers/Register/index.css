@@ -1,0 +1,90 @@
+.containerregister{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('../Home/image/bg_pattern.jpg');
+}
+.regsiterinfor{
+    height: 800px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+}
+.resiterform{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('../Home/image/headerbg.png');
+    border-radius: 25px;
+}
+.resiterform h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:rgb(2, 102, 7);
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.containerresiterform{
+    height: 800px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.email, .Password, .Nhaplai, .phone, .name{
+    margin-left: 30px;
+}
+
+.containerresiterform input{
+    height: 35px;
+    margin-bottom: 20px;
+    width: 85%;
+    border-radius: 10px;
+    border-style: hidden;
+}
+.check input{
+    height: 15px;
+    width: 15px;
+    margin-left: 30px;
+}
+.check label{
+    color:rgb(2, 102, 7);
+}
+.containerresiterform p{
+    font-size: 20px;
+    color:rgb(2, 102, 7);
+    margin-top: 0%;
+    margin-bottom: 10px;
+    height: 25px;
+}
+.containerresiterform button{
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+    color:rgb(1, 5, 1);
+    font-size: medium;
+    border-style: hidden;
+    background-color:rgb(2, 102, 7);
+}
+.buton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Saveacount{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.Saveacountres label{
+    color:rgb(2, 102, 7);
+}

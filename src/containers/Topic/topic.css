@@ -1,0 +1,20 @@
+.containeritemtopic{
+    width: 1200px;
+    text-align: center;
+    background-image: url('/src/containers/Home/image/headerbg.png');
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.containeritemtopic ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tiltlelist{
+    width: 100%;
+}
+.tiltlelist h1{
+    font-size: 40px;
+    font-family: 'Marck Script', cursive;
+    margin-top: 100px; 
+}

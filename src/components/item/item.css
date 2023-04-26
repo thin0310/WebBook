@@ -1,0 +1,35 @@
+.iteminfo{
+    height: 350px;
+    width: 180px;
+    border-radius: 10px;
+    margin-bottom: 50px;  
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.imgitem{
+    width: 100%;
+}
+.imgitem img{
+    width: 160px;
+    border-radius: 10px;
+}
+.imgname{
+    height: 80px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.imgname p{
+    margin: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgb(2, 61, 22);
+    
+}
+.iteminfo a{
+    text-decoration: none;
+}

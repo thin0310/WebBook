@@ -1,0 +1,29 @@
+.gioithieu{
+    display: flex;
+    justify-content: center;
+    
+}
+.containergioithieu{
+    width: 1200px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../Home/image/headerbg.png");
+    border-radius: 10px;
+}
+.containergioithieu h1{
+     font-family: 'Marck Script', cursive;
+     font-size: 50px;
+     color: rgb(109, 62, 4);
+}
+.containergioithieu h3{
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+    color: rgb(49, 1, 77);
+}
+.containergioithieu p{
+    padding: 0;
+    font-size: 17px;
+    margin: 20px 40px 20px 40px;
+}
